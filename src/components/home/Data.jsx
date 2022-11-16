@@ -1,11 +1,10 @@
 import React from 'react';
-import hand from '../../assets/hand.svg';
 
 const Data = () => {
   return (
     <div className='home__data'>
       <h1 className='home__title'>
-        Dmitry Velichko
+        Hi, I'm Dima
         <svg
           width='36'
           height='36'

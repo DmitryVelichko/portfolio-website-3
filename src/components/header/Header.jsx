@@ -10,7 +10,7 @@ const [isShowMenu, setIsShowMenu] = useState(false)
     <header className='header'>
       <nav className='nav container'>
         <a href='index.html' className='nav__logo'>
-          Velichko
+          Dmitry Velichko
         </a>
 
         <div className={isShowMenu ? 'nav__menu show-menu' : "nav__menu"}>
