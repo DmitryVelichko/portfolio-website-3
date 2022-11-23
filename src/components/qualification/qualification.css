@@ -53,3 +53,9 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
+
+.qualification__subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
