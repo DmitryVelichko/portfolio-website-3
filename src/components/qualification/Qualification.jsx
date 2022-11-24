@@ -20,7 +20,7 @@ const Qualification = () => {
             Education
           </div>
 
-          <div className='qualification__button button--flex'>
+          <div className={toggleState === 2 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'}>
             <i className='uil uil-briefcase-alt qualification__icon'></i>
             Experience
           </div>
