@@ -98,3 +98,11 @@
   background-color: var(--body-color);
   z-index: 10;
 }
+
+.contact__form-area {
+  height: 11rem;
+}
+
+.contact__form-area textarea {
+  resize: none;
+}
