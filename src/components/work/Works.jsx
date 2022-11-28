@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { projectsData } from './Data';
 import { projectsNav } from './Data';
 import WorkItems from './WorkItems';
 
 const Works = () => {
+  const [item, setItem] = useState({ name: 'all' });
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
+  
   return (
     <div>
       <div className='work__filters'>
@@ -18,7 +22,7 @@ const Works = () => {
 
       <div className='work__container container grid'>
         {projectsData.map((item) => {
-          return <WorkItems item={item} key={item.id} />
+          return <WorkItems item={item} key={item.id} />;
         })}
       </div>
     </div>
