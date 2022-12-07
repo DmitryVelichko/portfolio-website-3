@@ -2,7 +2,7 @@ import React from 'react'
 
 const Social = () => {
   return (
-    <div className='home__social'>
+    <div className='home__socialIcons'>
         <a href="https://www.linkedin.com/in/dmitryvelichko/" rel="noreferrer" className='home__social-icon' target='_blank'>
             <i className="uil uil-linkedin"></i>
         </a>

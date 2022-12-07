@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.home__social {
+.home__socialIcons {
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
@@ -161,6 +161,7 @@
   .home__content {
     grid-template-columns: 0.5fr 3fr;
     padding-top: 3.5rem;
+
   }
   .home__img {
     order: initial;
@@ -184,6 +185,10 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .home__content {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 3.5rem;
+  }
     .home__img {
         width: 180px;
         height: 180px;
